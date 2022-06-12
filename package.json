@@ -1,0 +1,40 @@
+{
+  "name": "@svalit/vercel",
+  "version": "0.1.0-alpha.1",
+  "description": "SvaLit adapter for Vercel",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "demo": "vercel dev --listen 80"
+  },
+  "dependencies": {
+    "svalit": "^0.1.0-alpha.8"
+  },
+  "devDependencies": {
+  },
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SvaLit/Vercel.git"
+  },
+  "keywords": [
+    "Vercel",
+    "Lit",
+    "SSR",
+    "SSG",
+    "Async",
+    "Vanilla"
+  ],
+  "author": {
+    "name": "Vladislav Ponomarev",
+    "email": "Git@PonomareVlad.ru",
+    "url": "https://PonomareVlad.ru"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SvaLit/Vercel/issues"
+  },
+  "homepage": "https://github.com/SvaLit/Vercel#readme"
+}

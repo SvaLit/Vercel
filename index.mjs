@@ -32,7 +32,7 @@ export default class RenderStream extends RenderThread {
         const footer = this.importMapOptions.disableGeneration ? this.footerTemplate() :
             await this.importMapGenerator.htmlGenerate(this.footerTemplate(), this.generationOptions)
         resetImports()
-        const updatedFooter = this.disableImports(footer)
+        const updatedFooter = this.disableImports(footer).replace(`"./": {`, `"/": {`)
         return this.res.end(this.shim ? this.shimScripts(updatedFooter) : updatedFooter)
     }
 }

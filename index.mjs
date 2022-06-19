@@ -1,4 +1,4 @@
-import {RenderThread, readableFrom, render} from "svalit"
+import {RenderThread, readableFrom, render} from "svalit/render.mjs"
 import {resetImports} from "svalit/loader.mjs";
 
 export default class RenderStream extends RenderThread {

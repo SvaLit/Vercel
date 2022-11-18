@@ -10,8 +10,7 @@
   "dependencies": {
     "svalit": "^0.1.0-alpha.14"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "exports": {
     ".": "./index.mjs"
   },
@@ -27,11 +26,7 @@
     "Async",
     "Vanilla"
   ],
-  "author": {
-    "name": "Vladislav Ponomarev",
-    "email": "Git@PonomareVlad.ru",
-    "url": "https://PonomareVlad.ru"
-  },
+  "author": "Vladislav Ponomarev <Git@PonomareVlad.ru> (https://PonomareVlad.ru)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SvaLit/Vercel/issues"

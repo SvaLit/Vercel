@@ -1,6 +1,6 @@
 {
   "name": "@svalit/vercel",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "SvaLit adapter for Vercel",
   "main": "index.mjs",
   "type": "module",
